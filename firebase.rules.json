@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth != null",  // Só usuários autenticados podem ler
+    ".write": "auth != null"  // Só usuários autenticados podem escrever
+  }
+}
